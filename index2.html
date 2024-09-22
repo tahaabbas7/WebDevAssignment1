@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <header class="header">     <!-- Navbar -->
+        <a href="#home">
+            <img src="homebutton.png" alt="Profile Picture" class="profile-picture">
+        </a>
+        <a href="#home" class="name">Home.</a>
+        <nav class="navbar">
+            <a href="#skills">Skills</a>
+            <a href="#videocontent">Video Content</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#courses">Courses</a>
+            <a href="#degree">Degree</a>
+            <a href="#socialmedia">Social Media</a>
+        </nav>
+    </header>
+
+    <section id ="home" class="home">   <!-- Intro -->
+        <div class="homecontent">
+            <h1 id="name"></h1>
+            <h3 id="name-urdu"></h3>
+            <br>
+            <p id="description"></p>
+        </div>
+    </section>
+<!--All Different Sections of Body Start -->
+    <section id="skills">
+        <div class="sections">
+            <h2>Skills</h2>
+            <h3>Hard Skills</h3>
+            <div class="container" id="hard-skills"></div>
+            <h3>Soft Skills</h3>
+            <div class="container" id="soft-skills"></div>
+        </div>
+    </section>
+
+    <section id="videocontent">
+        <div class="sections">
+            <h2>Video Content</h2>
+            <iframe id="video-content" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="sections">
+            <h2>Projects</h2>
+            <div class="container" id="projects-list"></div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="sections">
+            <h2>Certificates</h2>
+            <div class="container" id="certificates-list"></div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="sections">
+            <h2>Courses</h2>
+            <div class="container" id="courses-list"></div>
+        </div>
+    </section>
+
+    <section id="degree">
+        <div class="sections">
+            <h2>Degree</h2>
+            <div class="container" id="degree-info"></div>
+        </div>
+    </section>
+
+    <section id="socialmedia">
+        <div class="sections">
+            <h2>Social</h2>
+            <div class="container" id="social-media"></div>
+        </div>
+    </section>
+</body>
+</html>
